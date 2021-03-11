@@ -10,10 +10,11 @@ As part of the U.S. National Library of Medicine, PubMed is a public and freely-
 
 How can users can get started with PubMed-Query?
 
-1. Install Python.
-2. In Windows, create a folder called c:\pubmed_xml_files to store XML files written by the program. In Linux or other operating systems, create a folder the program to write xml files to and modify the value of self.output_file_path in the __init__() function with the name of that folder.
-3. Modify the search term in the util.search() function at the end of file pubmed_query.py as desired. For information about search term syntax, see the links to PubMed documentation in the next section for help. Since the program creates and submits a URL to the PubMed server, the URL cannot contain spaces. So, in your search term, remember to replace each space with a plus sign (+).
-4. Run the program to search the PubMed database, to fetch matching citations, and to write them as XML files to the folder specified in  step 2.
+1. Install Python. 
+2. This repository includes all files for a Visual Studio project. So, if you use Visual Studio, open pubmed_query.sln in Visual Studio. If not, open its Python source file, pubmed_query.py, in your favorite editor or IDE.
+3. In Windows, create a folder called c:\pubmed_xml_files to store XML files written by the program. In Linux or other operating systems, create a folder the program to write xml files to and modify the value of self.output_file_path in the __init__() function within pubmed_query.py with the name of that folder.
+4. Modify the search term in the util.search() function at the end of file pubmed_query.py as desired. For information about search term syntax, see the links to PubMed documentation in the next section for help. Since the program creates and submits a URL to the PubMed server, the URL cannot contain spaces. So, in your search term, remember to replace each space with a plus sign (+).
+5. Run the program to search the PubMed database, to fetch matching citations, and to write them as XML files to the folder specified in  step 2.
 
 Where users can get help with your project?
 
