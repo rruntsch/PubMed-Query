@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pubmed_query", "pubmed_query.pyproj", "{F7904F50-A9D5-417F-9FBA-2081C2564097}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7904F50-A9D5-417F-9FBA-2081C2564097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7904F50-A9D5-417F-9FBA-2081C2564097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14504F89-61C3-4FD2-957A-DC43A0A7E4A0}
+	EndGlobalSection
+EndGlobal
